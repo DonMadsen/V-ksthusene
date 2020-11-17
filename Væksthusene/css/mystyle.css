@@ -1,0 +1,741 @@
+.image_container {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/dronebillede.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding: 100px;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.centered {
+    font-size: 100%;
+}
+.logo {
+    width: 90px;
+}
+
+
+.middelhavshus {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#collapsibleNavbar {
+    padding-left: 55%;
+}
+
+
+a:link {
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    padding-left: 2%;
+}
+
+.navbar navbar-expand-md bg-light navbar-light text-center {}
+
+a:visited {
+    color: black;
+}
+
+.bg-custom {
+    background-color: #D0D6D9;
+}
+
+a:hover {
+    color: white !important;
+}
+
+
+.overskrift {
+    position: absolute;
+    padding-left: 2%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    z-index: 10;
+}
+
+
+/* --------------Middelhavshuset---------------- */
+.krydderi {
+    top: 45%;
+    left: 65%;
+    position: absolute;
+    max-width: 35%;
+
+}
+
+.plante {
+    top: 38%;
+    left: 20%;
+    position: absolute;
+    max-width: 20%;
+}
+
+.Oliven {
+    top: 80%;
+    left: 54%;
+    position: absolute;
+    max-width: 35%;
+}
+
+.Palme {
+    top: 58%;
+    left: 7%;
+    position: absolute;
+    max-width: 30%;
+}
+
+/* --------------Middelhavshuset---------------- */
+
+@media screen and (min-width:800px) {
+
+    .krydderi {
+        top: 70%;
+        left: 20%;
+        position: absolute;
+        max-width: 30%;
+        z-index: 1;
+    }
+
+    .plante {
+        top: 180%;
+        left: 10%;
+        position: absolute;
+        max-width: 30%;
+    }
+
+    .Oliven {
+        top: 90%;
+        left: 70%;
+        position: absolute;
+        max-width: 35%;
+    }
+
+    .Palme {
+        top: 170%;
+        left: 40%;
+        position: absolute;
+        max-width: 30%;
+    }
+
+}
+
+/* --------------bjergskovhuset---------------- */
+
+.citron {
+    width: auto;
+    height: 10%;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+.clasuia {
+    height: 13%;
+    position: absolute;
+    top: 40%;
+    left: 72%;
+
+}
+
+.flamingo {
+    height: 10%;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+.kaffeplante {
+    height: 10%;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    z-index: 1;
+}
+
+
+@media screen and (min-width:800px) {
+
+    /* --------------bjergskovhuset---------------- */
+    .citron {
+
+        height: 40%;
+        position: absolute;
+        top: 68%;
+        left: 5%;
+    }
+
+    .clasuia {
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        top: 100%;
+        left: 66%;
+    }
+
+    .flamingo {
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        top: 200%;
+        left: 77%;
+    }
+
+    .kaffeplante {
+        width: 20%;
+        height: 20%;
+        position: absolute;
+        top: 163%;
+        left: 28%;
+    }
+
+}
+
+/* --------------Ørkenhuset---------------- */
+.daddelpalme {
+    position: absolute;
+    width: 32%;
+    height: 20%;
+    top: 28%;
+    left: 1%
+}
+
+.guldkaktus {
+    position: absolute;
+    width: 34%;
+    height: 12%;
+    top: 80%;
+    left: 10%;
+}
+
+.aloevera {
+    position: absolute;
+    width: 45%;
+    height: 15%;
+    top: 60%;
+    left: 60%;
+}
+
+.paradisplante {
+    position: absolute;
+    width: 37%;
+    height: 21%;
+    top: 55%;
+    left: 10%;
+}
+
+.tequilaplante {
+    position: absolute;
+    width: 35%;
+    height: 15%;
+    top: 80%;
+    left: 45%;
+}
+
+/* --------------Ørkenhuset---------------- */
+@media screen and (min-width:800px) {
+    .daddelpalme {
+        position: absolute;
+        width: 32%;
+        height: 50%;
+        top: 40%;
+        left: 1%
+    }
+
+    .guldkaktus {
+        position: absolute;
+        width: 20%;
+        height: 35%;
+        top: 130%;
+        left: 18%;
+    }
+
+    .aloevera {
+        position: absolute;
+        width: 34%;
+        height: 55%;
+        top: 195%;
+        left: 10%;
+    }
+
+    .paradisplante {
+        position: absolute;
+        width: 35%;
+        height: 70%;
+        top: 165%;
+        left: 70%;
+    }
+
+    .tequilaplante {
+        position: absolute;
+        width: 25%;
+        height: 45%;
+        top: 90%;
+        left: 80%;
+    }
+
+}
+
+
+/* --------------Tropehuset---------------- */
+
+ .overskrift1 {
+    position: absolute;
+    padding-left: 20%;
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Amatic SC', cursive;
+    z-index: 10;
+}
+
+.bambus {
+    position: absolute;
+    height: 14%;
+    top: 63%;
+    left: 23%;
+}
+
+.risplante {
+    position: absolute;
+    height: 10%;
+    top: 30%;
+    left: 65%;
+}
+
+.penisplante {
+    position: absolute;
+    height: 10%;
+    top: 65%;
+    left: 78%;
+}
+
+.oliepalme {
+    position: absolute;
+    height: 13%;
+    top: 26%;
+    left: 9%;
+}
+
+.kander {
+    position: absolute;
+    height: 17%;
+    top: 75%;
+    left: 3%;
+}
+
+.sommerfugl {
+    position: absolute;
+    height: 10%;
+    top: 52%;
+    left: 36%;
+}
+
+/* --------------Tropehuset---------------- */
+
+@media screen and (min-width:800px) {
+    
+    .overskrift1 {
+    font-size:70px;
+    padding-left: 25%;
+    padding-top: 2%;
+    color: white;
+   
+   
+    font-family: 'Amatic SC', cursive;
+    z-index: 10;
+}
+
+    .bambus {
+        position: absolute;
+        height: 40%;
+        top: 200%;
+        left: 25%;
+    }
+
+    .risplante {
+        position: absolute;
+        height: 40%;
+        top: 70%;
+        left: 60%;
+    }
+
+    .penisplante {
+        position: absolute;
+        height: 40%;
+        top: 170%;
+        left: 75%;
+    }
+
+    .oliepalme {
+        position: absolute;
+        height: 40%;
+        top: 30%;
+        left: 10%;
+    }
+
+    .kander {
+        position: absolute;
+        height: 56%;
+        top: 280%;
+        left: 8%;
+    }
+
+    .sommerfugl {
+        position: absolute;
+        height: 29%;
+        top: 140%;
+        left: 36%;
+    }
+
+}
+
+.hidden {
+    display: none;
+}
+
+/* --------------Middelhavshuset---------------- */
+.krydderi2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    z-index: 5;
+}
+
+.kodædende {
+    position: absolute;
+    top: 65%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    height: 35%;
+    z-index: 2;
+}
+
+.oliventræ {
+    position: absolute;
+    top: 66%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    height: 32%;
+    z-index: 2;
+}
+
+.palmetræ2 {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    z-index: 2;
+}
+
+@media screen and (min-width:800px) {
+
+    .krydderi2 {
+        top: 60%;
+        left: 15%;
+        position: absolute;
+        height: 60%;
+        z-index: 1;
+    }
+
+    .kodædende {
+        top: 150%;
+        left: 20%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .oliventræ {
+        top: 90%;
+        left: 60%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .palmetræ2 {
+        top: 145%;
+        left: 60%;
+        position: absolute;
+        height: 60%;
+    }
+
+}
+
+
+/* --------------Bjergsskovshuset---------------- */
+
+.citron2 {
+    position: absolute;
+    top: 50%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    height: 35%;
+    z-index: 5;
+}
+
+.anthurium {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    height: 35%;
+    z-index: 5;
+}
+
+.kaffeplante2 {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 33%;
+    z-index: 5;
+}
+
+.saxifraga {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 35%;
+     z-index: 5;
+}
+
+@media screen and (min-width:800px) {
+
+    .citron2 {
+        top: 60%;
+        left: 45%;
+        position: absolute;
+        height: 60%;
+        z-index: 1;
+    }
+
+    .anthurium {
+        top: 110%;
+        left: 50%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .kaffeplante2 {
+        top: 170%;
+        left: 63%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .saxifraga {
+        top: 220%;
+        left: 65%;
+        position: absolute;
+        height: 60%;
+    }
+
+}
+
+
+/* --------------Ørkenhuset---------------- */
+
+.daddelpalme2 {
+    position: absolute;
+    top: 45%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+}
+
+.kaktus2 {
+    position: absolute;
+    top: 70%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+    z-index: 5;
+}
+
+.aloevera2 {
+    position: absolute;
+    top: 45%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+}
+
+.paradiseplant {
+    position: absolute;
+    top: 45%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+}
+
+.tequila {
+    position: absolute;
+    top: 70%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+    z-index: 5;
+}
+
+@media screen and (min-width:800px) {
+
+    .daddelpalme2 {
+        top: 60%;
+        left: 45%;
+        position: absolute;
+        height: 60%;
+        z-index: 1;
+    }
+
+    .kaktus2 {
+        top: 150%;
+        left: 50%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .aloevera2 {
+        top: 170%;
+        left: 40%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .paradiseplant {
+        top: 145%;
+        left: 60%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .tequila {
+        top: 130%;
+        left: 65%;
+        position: absolute;
+        height: 60%;
+    }
+
+}
+
+/* --------------Tropehuset---------------- */
+
+
+.bambus2 {
+    position: absolute;
+    top: 52%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+    z-index: 5;
+}
+
+.åkander2 {
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+    z-index: 5;
+}
+
+.oliepalme2 {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+    z-index: 5;
+}
+
+.risplante2 {
+    position: absolute;
+    top: 55%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+    z-index: 5;
+}
+
+.penisplante2 {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+    z-index: 5;
+}
+
+.sommerfugl2 {
+    position: absolute;
+    top: 38%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    height: 28%;
+    z-index: 5;
+}
+
+@media screen and (min-width:800px) {
+
+    .bambus2 {
+        top: 220%;
+        left: 58%;
+        position: absolute;
+        height: 60%;
+        z-index: 1;
+    }
+
+    .åkander2 {
+        top: 290%;
+        left: 45%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .oliepalme2 {
+        top: 70%;
+        left: 40%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .risplante2 {
+        top: 70%;
+        left: 45%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .penisplante2 {
+        top: 180%;
+        left: 60%;
+        position: absolute;
+        height: 60%;
+    }
+
+    .sommerfugl2 {
+        top: 160%;
+        left: 65%;
+        position: absolute;
+        height: 60%;
+    }
+
+}
